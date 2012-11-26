@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -14,16 +15,12 @@
   <name>lastfm-oss-parent</name>
   <description>Last.fm OSS parent POM.</description>
 
+  <url>https://github.com/lastfm/${project.artifactId}</url>
+
   <organization>
     <name>Last.fm</name>
     <url>http://www.last.fm</url>
   </organization>
-
-  <scm>
-    <connection>scm:git:https://github.com/lastfm/lastfm-oss-parent.git</connection>
-    <developerConnection>scm:git:https://github.com/lastfm/lastfm-oss-parent</developerConnection>
-    <url>https://github.com/lastfm/lastfm-oss-parent</url>
-  </scm>
 
   <licenses>
     <license>
@@ -33,8 +30,14 @@
     </license>
   </licenses>
 
+  <scm>
+    <connection>scm:git:git@github.com:lastfm/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:lastfm/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/lastfm/${project.artifactId}</url>
+  </scm>
+
   <properties>
-    <lastFmOssConfigVersion>1.0.0</lastFmOssConfigVersion>
+    <lastFmOssConfigVersion>1.0.1-SNAPSHOT</lastFmOssConfigVersion>
     <findbugsMavenPluginVersion>2.3.2</findbugsMavenPluginVersion>
     <mavenCheckstylePluginVersion>2.6</mavenCheckstylePluginVersion>
     <downloadSources>true</downloadSources>
