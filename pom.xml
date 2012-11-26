@@ -10,7 +10,7 @@
   <groupId>fm.last</groupId>
   <artifactId>lastfm-oss-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>lastfm-oss-parent</name>
   <description>Last.fm OSS parent POM.</description>
 
