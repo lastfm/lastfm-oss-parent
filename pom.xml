@@ -34,7 +34,7 @@
   </licenses>
 
   <properties>
-    <lastFmOssConfigVersion>0.0.1-SNAPSHOT</lastFmOssConfigVersion>
+    <lastFmOssConfigVersion>1.0.0</lastFmOssConfigVersion>
     <findbugsMavenPluginVersion>2.3.2</findbugsMavenPluginVersion>
     <mavenCheckstylePluginVersion>2.6</mavenCheckstylePluginVersion>
     <downloadSources>true</downloadSources>

@@ -1,4 +1,5 @@
 TBA
+- Upgraded lastfm-oss-config dependency to version 1.0.0.
 
 1.0.0 (2012-11-26)
 - Initial release.
