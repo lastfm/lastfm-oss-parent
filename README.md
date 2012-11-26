@@ -2,7 +2,7 @@
 
 Parent POM used by [Last.fm](http://www.last.fm) open-source projects.
 
-#Legal
+## Legal
 Copyright 2012 [Last.fm](http://www.last.fm/)
 
 Licensed under the Apache License, Version 2.0 (the "License");
