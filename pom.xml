@@ -15,8 +15,6 @@
   <name>lastfm-oss-parent</name>
   <description>Last.fm OSS parent POM.</description>
 
-  <url>https://github.com/lastfm/${project.artifactId}</url>
-
   <organization>
     <name>Last.fm</name>
     <url>http://www.last.fm</url>
@@ -37,7 +35,7 @@
   </scm>
 
   <properties>
-    <lastFmOssConfigVersion>1.0.1-SNAPSHOT</lastFmOssConfigVersion>
+    <lastFmOssConfigVersion>1.1.0</lastFmOssConfigVersion>
     <findbugsMavenPluginVersion>2.3.2</findbugsMavenPluginVersion>
     <mavenCheckstylePluginVersion>2.6</mavenCheckstylePluginVersion>
     <downloadSources>true</downloadSources>
