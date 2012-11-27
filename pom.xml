@@ -11,8 +11,9 @@
   <artifactId>lastfm-oss-parent</artifactId>
   <packaging>pom</packaging>
   <version>1.1.1-SNAPSHOT</version>
-  <name>lastfm-oss-parent</name>
+  <name>${project.artifactId}</name>
   <description>Last.fm OSS parent POM.</description>
+  <url>${project.scm.url}</url>
 
   <organization>
     <name>Last.fm</name>
